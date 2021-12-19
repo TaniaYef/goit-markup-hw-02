@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: #212121;
 }
 .header {
   background-color: #ffffff;
@@ -14,7 +15,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -24,47 +25,160 @@ body {
   font-family: "Raleway", sans-serif;
   color: black;
 }
-.link-studio {
+.link {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   color: #212121;
 }
-.link-portfolio {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #212121;
+.link:hover,
+.link:focus {
+  color: #2196f3;
 }
-.link-contacts {
+.mail-tel {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: #212121;
-}
-.mail {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   color: #757575;
 }
-.tel {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
+.mail-tel:hover,
+.mail-tel:focus {
+  color: #2196f3;
+}
+.hero {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-align: center;
+  background-color: #2f303a;
+}
+.hero-text {
+  color: #ffffff;
+}
+.button {
+  font-weight: 700;
+  font-family: inherit;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Benefits */
+
+.benefits {
+  visibility: hidden;
+}
+.benefits-name {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefits-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
-.hero {
+/* Command */
+
+.services,
+.command-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.command {
+  background-color: #f5f4fa;
+}
+.crewman {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.crewman-specification {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Footer */
+
+.footer {
   background-color: #2f303a;
+}
+.logo-b-footer {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+.adress {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.mail-tel-footer {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+.name-portfolio-1 {
+  visibility: hidden;
+}
+.button-filter {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-filter:hover,
+.button-filter:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.name-portfolio-2 {
+  visibility: hidden;
+}
+.link-portfolio-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.link-portfolio-item {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.link-decor {
+  text-decoration: none;
 }
