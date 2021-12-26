@@ -6,8 +6,58 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+.main-nav {
+  display: flex;
+}
+.site-nav {
+  display: flex;
+}
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  outline: 1px solid tomato;
+
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+/* display: flex;
+  flex-wrap: wrap; */
+.auth-nav {
+  display: flex;
+}
+.auth-nav .mail-tel {
+  display: block;
+  padding-top: 32;
+  padding-bottom: 32px;
+  outline: 1px solid tomato;
+}
+.auth-nav > .item + .item {
+  margin-left: 50px;
+}
+.container {
+  width: 1200px;
 }
 .list {
   list-style: none;
@@ -28,14 +78,14 @@ body {
   font-family: "Raleway", sans-serif;
   color: black;
 }
-.link {
+/* .link {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
-}
+} */
 .link:hover,
 .link:focus {
   color: #2196f3;
@@ -52,6 +102,10 @@ body {
 .mail-tel:focus {
   color: #2196f3;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .hero {
   font-size: 44px;
   line-height: 1.36;
@@ -63,13 +117,26 @@ body {
   color: #ffffff;
 }
 .button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.btn-text {
+  display: flex;
   font-weight: 700;
   font-family: inherit;
   font-size: 16px;
-  background-color: #2196f3;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
+  padding: 0;
+  align-self: center;
+  text-align: center;
+  margin: 0px;
 }
 
 /* Benefits */
